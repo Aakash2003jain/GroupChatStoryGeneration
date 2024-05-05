@@ -5,8 +5,8 @@ from transformers import  PegasusTokenizer
 import torch
 
 app = Flask(__name__)
-model_dir = r"..\Text-summarization\pegasus-samsum-model"
-tokenizer = PegasusTokenizer.from_pretrained(r"..\Text-summarization\tokenizer")
+model_dir = r"..\Text-summarization\pegasus-samsum-model" #Load the saved model after training
+tokenizer = PegasusTokenizer.from_pretrained(r"..\Text-summarization\tokenizer") # Load the saved tokenizer after training
 print("Tokenizer loaded")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
