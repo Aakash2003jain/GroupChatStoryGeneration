@@ -1,7 +1,7 @@
 # GroupChatStoryGen
 
 ## Overview
-GroupChatStoryGen is a groundbreaking project harnessing the power of Google's Pegasus model to craft captivating narratives from group chat discussions. Pegasus, renowned for its prowess in abstractive text summarization, has been fine-tuned specifically for this purpose, enriching the storytelling experience. 
+GroupChatStoryGen is a groundbreaking project harnessing the power of Google's Pegasus model to craft captivating narratives from group chat discussions. Pegasus, renowned for its prowess in abstractive text summarization, has been **fine-tuned** specifically for this purpose, enriching the storytelling experience. 
 
 ## Features
 - **Data Preprocessing**: The project includes scripts for preprocessing group chat data, including cleaning, formatting, and preparing it for input to the Pegasus model.
