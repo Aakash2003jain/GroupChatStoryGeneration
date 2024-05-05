@@ -20,6 +20,7 @@ GroupChatStoryGen is a groundbreaking project harnessing the power of Google's P
 
 ## Acknowledgements
 - This project utilizes the Google's Pegasus model.
-- We thank the Hugging Face team for their excellent Transformers library.
+- Thank the Hugging Face team for their excellent Transformers library.
+
 
 
