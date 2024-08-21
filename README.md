@@ -31,13 +31,13 @@ The Group Chat Story Generator is a Python-based project designed to automatical
   5.**Run the Notebook**
   Follow the instructions in the notebook to load your data, configure the Pegasus model, and     generate summaries or stories.
 
-## Example Output
+# Example Output
 Below is an example of a summarized story generated from group chat data:
-## Original Chat:
-[User1]: Hey, how's everyone doing today?
-[User2]: I'm good, just finished a project.
-[User3]: Same here, feeling productive.
-...
+# Original Chat:
+User1: Hey, how's everyone doing today?
+User2: I'm good, just finished a project.
+User3: Same here, feeling productive.
+and so on.
 
 ## Generated Summary:
 The group discussed their productivity and recent accomplishments, with everyone feeling positive about their day.
