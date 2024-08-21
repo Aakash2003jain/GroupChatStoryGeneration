@@ -12,7 +12,7 @@ The Group Chat Story Generator is a Python-based project designed to automatical
 
 ## Getting Started on Google Colab 
 1. **Open the Notebook in Google Colab**
-     You can run the project directly in Google Colab by opening the notebook from your GitHub repository.If the notebook is stored locally, upload it to Colab by selecting File > Upload notebook.
+     You can run the project directly in Google Colab by opening the notebook from your GitHub repository.If the notebook is stored locally, upload it to Colab.
    
 2.**Install Required Dependencies**
     Run the following command in a Colab code cell to install the necessary libraries:
