@@ -11,6 +11,7 @@ The Group Chat Story Generator is a Python-based project designed to automatical
 - **Evaluation**: Provides methods for evaluating the generated stories, including metrics such as coherence, fluency, and relevance.
 
 ## Getting Started on Google Colab
+
 1. Open the Notebook in Google Colab
 
 You can run the project directly in Google Colab by opening the notebook from your GitHub repository.
