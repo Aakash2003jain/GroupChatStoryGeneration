@@ -11,38 +11,36 @@ The Group Chat Story Generator is a Python-based project designed to automatical
 - **Evaluation**: Provides methods for evaluating the generated stories, including metrics such as coherence, fluency, and relevance.
 
 ## Getting Started on Google Colab 
-1. Open the Notebook in Google Colab
-You can run the project directly in Google Colab by opening the notebook from your GitHub repository.
-If the notebook is stored locally, upload it to Colab by selecting File > Upload notebook.
-
-2.Install Required Dependencies
-Run the following command in a Colab code cell to install the necessary libraries:
+  1. **Open the Notebook in Google Colab**
+  -You can run the project directly in Google Colab by opening the notebook from your GitHub       repository.
+  -If the notebook is stored locally, upload it to Colab by selecting File > Upload notebook.
+  
+  2.**Install Required Dependencies**
+    -Run the following command in a Colab code cell to install the necessary libraries:
+   ```bash
+  !pip install transformers[sentencepiece] datasets sacrebleu rouge_score py7zr -q
+  ```
+  3.**Mount Google Drive (Optional)**
+    -If your group chat data is stored on Google Drive, mount your Drive in Colab:
   ```bash
-!pip install transformers[sentencepiece] datasets sacrebleu rouge_score py7zr -q
-```
-3.Mount Google Drive (Optional)
-If your group chat data is stored on Google Drive, mount your Drive in Colab:
-
-```bash
-from google.colab import drive
-drive.mount('/content/drive')
-```
-
-4.Upload Your Data
-You can either upload your group chat CSV file directly to the Colab environment or access it from Google Drive.
-
-5.Run the Notebook
-Follow the instructions in the notebook to load your data, configure the Pegasus model, and generate summaries or stories.
+  from google.colab import drive
+  drive.mount('/content/drive')
+  ```
+  4.**Upload Your Data**
+    -You can either upload your group chat CSV file directly to the Colab environment or access     it from Google Drive.
+  
+  5.**Run the Notebook**
+  -Follow the instructions in the notebook to load your data, configure the Pegasus model, and     generate summaries or stories.
 
 ## Example Output
 Below is an example of a summarized story generated from group chat data:
-Original Chat:
+## Original Chat:
 [User1]: Hey, how's everyone doing today?
 [User2]: I'm good, just finished a project.
 [User3]: Same here, feeling productive.
 ...
 
-Generated Summary:
+## Generated Summary:
 The group discussed their productivity and recent accomplishments, with everyone feeling positive about their day.
 
 
